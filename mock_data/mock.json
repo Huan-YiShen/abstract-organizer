@@ -1,0 +1,96 @@
+[
+    {
+        "object": "paper",
+        "pid": 1,
+        "title": "Research paper 1",
+        "abstract": "Abstract of research paper 1",
+        "authors": [
+            {
+                "email": "first.author@uwaterloo.ca",
+                "given_name": "first",
+                "family_name": "author",
+                "affiliation": "Univerity of Waterloo"
+            },
+            {
+                "email": "second.author@uwaterloo.ca",
+                "given_name": "second",
+                "family_name": "author",
+                "affiliation": "Univerity of Waterloo"
+            },
+            {
+                "email": "third.author@uwaterloo.ca",
+                "given_name": "third",
+                "family_name": "author",
+                "affiliation": "Univerity of Waterloo"
+            }
+        ],
+        "contacts": [
+            {
+                "email": "first.author@uwaterloo.ca",
+                "given_name": "first",
+                "family_name": "author",
+                "affiliation": "Univerity of Waterloo"
+            },
+            {
+                "email": "second.author@uwaterloo.ca",
+                "given_name": "second",
+                "family_name": "author",
+                "affiliation": "Univerity of Waterloo"
+            }
+        ],
+        "topics": [
+            "Nuclear Physics"
+        ],
+        "pc_conflicts": {},
+        "decision": "Accepted",
+        "status": "accept",
+        "submitted": true
+    },
+    {
+        "object": "paper",
+        "pid": 2,
+        "title": "Research paper 2 about $^{16}$O$_{2}^{+}$",
+        "abstract": "Abstract of research paper 2, about $^{40}$Ca$^{+}$, $^{9}$Be$^{+}$ and $^{171}$Yb$^+$",
+        "authors": [
+            {
+                "email": "first.author@gmail.com",
+                "given_name": "first",
+                "family_name": "author",
+                "affiliation": "Google"
+            },
+            {
+                "email": "second.author@gmail.com",
+                "given_name": "second",
+                "family_name": "author",
+                "affiliation": "Google"
+            },
+            {
+                "email": "third.author@uwaterloo.ca",
+                "given_name": "third",
+                "family_name": "author",
+                "affiliation": "Univerity of Waterloo"
+            }
+        ],
+        "contacts": [
+            {
+                "email": "first.author@gmail.com",
+                "given_name": "first",
+                "family_name": "author",
+                "affiliation": "Google"
+            },
+            {
+                "email": "second.author@gmail.com",
+                "given_name": "second",
+                "family_name": "author",
+                "affiliation": "Google"
+            }
+        ],
+        "topics": [
+            "Quantum Computing"
+        ],
+        "pc_conflicts": {},
+        "decision": "Accepted",
+        "status": "accept",
+        "submitted": true
+    }
+]
