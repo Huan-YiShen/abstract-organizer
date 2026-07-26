@@ -64,7 +64,14 @@ def parse_json(data):
 
 
 def store_to_csv(data_list, output_filename="output.csv"):
-    headers = ["pid", "first author", "first author email", "session number"]
+
+    headers = [
+        "pid", 
+        "title",
+        "first author", 
+        "first author email", 
+        "session number"]
+
     with open(output_filename, mode='w', newline='', encoding='utf-8') as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=headers)
         writer.writeheader()
@@ -72,9 +79,11 @@ def store_to_csv(data_list, output_filename="output.csv"):
         pid = -1
         first_author_name = ""
         first_author_email = ""
+        title = ""
         snum = 0
         for data in data_list:
             pid = data.pid
+            title = data.title
             first_author_name = data.first_author_name
             first_author_email = data.first_author_email
             snum = data.snum
@@ -82,6 +91,7 @@ def store_to_csv(data_list, output_filename="output.csv"):
             # Write row to CSV
             writer.writerow({
                 "pid": pid,
+                "title": title,
                 "first author": first_author_name,
                 "first author email": first_author_email,
                 "session number": snum,
